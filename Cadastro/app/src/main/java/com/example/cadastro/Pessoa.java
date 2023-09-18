@@ -3,24 +3,24 @@ package com.example.cadastro;
 public class Pessoa {
 
     //(id, nome, telefone, cpf, rg, endereço, numero, bairro, complemento, estado, cidade)
-    private Double id;
+    private int id;
     private String nome;
     private Double telefone;
-    private Double cpf;
-    private Double rg;
+    private int cpf;
+    private int rg;
     private String endereço;
-    private Double numero;
+    private int numero;
     private String bairro;
     private String complemento;
     private String estado;
     private String cidade;
 
 
-    public Double getid(){
+    public int getId(){
         return id;
     }
 
-    public void setId(Double id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -34,7 +34,7 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public Double gettelefone(){
+    public Double getTelefone(){
         return telefone;
     }
 
@@ -42,19 +42,17 @@ public class Pessoa {
         this.telefone = telefone;
     }
 
-    public Double getCpf(){
+    public int getCpf(){
         return cpf;
     }
 
-    public void setCpf(Double cpf) {
-        this.cpf = cpf;
-    }
+    public void setCpf(int cpf) {this.cpf = cpf;}
 
-    public Double getrg(){
+    public int getRg(){
         return rg;
     }
 
-    public void setrg(Double rg) {
+    public void setRg(int rg) {
         this.rg = rg;
     }
 
@@ -65,39 +63,35 @@ public class Pessoa {
         this.endereço = endereço;
     }
 
-    public Double getnumero(){
+    public int getNumero(){
         return numero;
     }
 
-    public void setNumero(Double numero) {
-        this.numero = numero;
-    }
+    public void setNumero(int numero) {this.numero = numero;}
 
-    public String bairro(){
+    public String getBairro(){
         return bairro;
     }
-    public void setbairro(String bairro) {
-        this.bairro = bairro;
-    }
+    public void setBairro(String bairro) { this.bairro = bairro;}
 
-    public String complemento(){
+    public String getComplemento(){
         return complemento;
     }
     public void setComplemento(String complemento) {
         this.complemento = complemento;
     }
 
-    public String estado(){
+    public String getEstado(){
         return estado;
     }
     public void setEstado(String estado) {
         this.estado = estado;
     }
 
-    public String cidade(){
+    public String getCidade(){
         return cidade;
     }
-    public void setcidade(String cidade) {
+    public void setCidade(String cidade) {
         this.cidade = cidade;
     }
 

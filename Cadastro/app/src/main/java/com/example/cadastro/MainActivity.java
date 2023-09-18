@@ -22,11 +22,47 @@ public class MainActivity extends AppCompatActivity {
 
         database = FirebaseDatabase.getInstance();
         DatabaseReference myRef= database.getReference("Pessoa");
-
+        //(id, nome, telefone, cpf, rg, endereço, numero, bairro, complemento, estado, cidade)
         Pessoa p = new Pessoa();
-        p.setId('um');
-        p.setNome("Fernando");
+        p.setId(1);
+        p.setNome("FernandoA");
+        p.setTelefone(11.961700836);
+        p.setCpf(1234567891);
+        p.setRg(222222);
+        p.setEndereço("rua x");
+        p.setNumero(273);
+        p.setBairro("bairosinhos");
+        p.setComplemento("Casa");
+        p.setEstado("Sp");
+        p.setCidade("SP");
+        myRef.child("1").setValue(p);
 
-        myRef.child("777").setValue(p);
+
+        p.setId(2);
+        p.setNome("FernandoB");
+        p.setTelefone(11.961700836);
+        p.setCpf(1234567891);
+        p.setRg(222222);
+        p.setEndereço("rua x");
+        p.setNumero(273);
+        p.setBairro("bairosinhos");
+        p.setComplemento("Casa");
+        p.setEstado("Sp");
+        p.setCidade("SP");
+        myRef.child("2").setValue(p);
+
+
+        p.setId(3);
+        p.setNome("FernandoC");
+        p.setTelefone(11.961700836);
+        p.setCpf(1234567891);
+        p.setRg(222222);
+        p.setEndereço("rua x");
+        p.setNumero(273);
+        p.setBairro("bairosinhos");
+        p.setComplemento("Casa");
+        p.setEstado("Sp");
+        p.setCidade("SP");
+        myRef.child("3").setValue(p);
     }
 }
