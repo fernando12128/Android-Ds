@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef= database.getReference("produtos");
+        DatabaseReference myRef= database.getReference("Pessoa");
 
-        Produtos p = new Produtos();
-        p.setNome("Ovalmite");
-        p.setPreco(23.50);
+        Pessoa p = new Pessoa();
+        p.setId('um');
+        p.setNome("Fernando");
 
         myRef.child("777").setValue(p);
     }
