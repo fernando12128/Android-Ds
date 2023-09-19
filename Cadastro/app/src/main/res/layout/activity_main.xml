@@ -14,5 +14,234 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+ <!-- Somente esse layout!-->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Cadastro">
+
+        <TextView
+            android:id="@+id/cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastre-se"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            />
+
+        <!--    <ImageView-->
+        <!--        android:id="@+id/img1"-->
+        <!--        android:layout_width="244dp"-->
+        <!--        android:layout_height="40dp"-->
+        <!--        android:layout_gravity="center|center_horizontal|center_vertical"-->
+        <!--        android:background="@drawable/ic_launcher_background"-->
+        <!--        app:srcCompat="@android:drawable/ic_menu_call"-->
+        <!--       />  &lt;!&ndash; tentar trocar o fundo  -->
+
+
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefone:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cpf:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Cpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rg:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+        <TextView
+            android:id="@+id/txt_Endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereco:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Bairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bairro:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Bairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Complemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complemento:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Complemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/txt_Cidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cidade:"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edt_Cidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cadastrar"
+                />
+
+            <!--        <Button-->
+            <!--            android:id="@+id/btnLimpar"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:text="Limpar"-->
+            <!--            />-->
+
+            <!--        <Button-->
+            <!--            android:id="@+id/btnSalvar"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:text="Salvar"-->
+            <!--            />-->
+
+            <!--        <Button-->
+            <!--            android:id="@+id/btnExcluir"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:text="Excluir"-->
+            <!--            />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".Cadastro">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
