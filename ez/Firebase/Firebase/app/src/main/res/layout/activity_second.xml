@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:background="@drawable/fundo2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seja bem vindo "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/signupNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Digite o seu nome "
+            android:textSize="17dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:id="@+id/signupTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:drawablePadding="10dp"
+            android:hint="Digite o seu Telefone"
+            android:inputType="text|number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/signupConfirmCpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"
+            android:hint="Digite o seu CPF"
+            android:inputType="text|number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/signupConfirmRG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"
+            android:hint="Digite o seu RG"
+            android:inputType="text|number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/signupConfirmEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textAutoComplete"
+            android:hint="Nome da sua rua "
+            android:textSize="17dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/signupConfirmNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="Digite o Numero da sua casa"
+            android:textSize="17dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/signupConfirmBairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:hint="Digite o seu bairro"
+            android:textSize="17dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/signupConfirmComplemento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textAutoComplete"
+            android:hint="Complemento"
+            android:textSize="17dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/signupConfirmEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textAutoComplete"
+            android:hint="Estado"
+            android:textSize="17dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"/>
+
+        <EditText
+            android:id="@+id/signupConfirmCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="10dp"
+            android:hint="Cidade"
+            android:inputType="text|textAutoComplete"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="17dp"
+            />
+
+        <Button
+            android:id="@+id/buttonReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar-se"
+            android:textSize="30dp"
+            android:layout_marginBottom="15dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
